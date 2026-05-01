@@ -6,12 +6,12 @@
 
 ## 📦 레포지토리 역할
 
-- `tool-assistant`: ROS 2 메인 시스템, 작업 상태 관리, 로봇팔/그리퍼/서랍 제어
-- `tool-assistant-perception`: 공구 인식, 위치 추정, 모델 학습/추론 파이프라인
-- `tool-assistant-datasets`: 데이터 수집, 라벨링, 메타데이터, 데이터셋 버전 관리
-- `tool-assistant-docs`: 기획서, 요구사항 명세서, 발표자료, 다이어그램
-- `tool-assistant-vla`: OpenVLA 기반 조작 skill 실험 및 파인튜닝
-- `tool-assistant-simulation`: Isaac Sim, Gazebo, RViz 기반 시뮬레이션
+- `macgyvbot-assistant`: ROS 2 메인 시스템, 작업 상태 관리, 로봇팔/그리퍼/서랍 제어
+- `macgyvbot-perception`: 공구 인식, 위치 추정, 모델 학습/추론 파이프라인
+- `macgyvbot-datasets`: 데이터 수집, 라벨링, 메타데이터, 데이터셋 버전 관리
+- `macgyvbot-docs`: 기획서, 요구사항 명세서, 발표자료, 다이어그램
+- `macgyvbot-vla`: OpenVLA 기반 조작 skill 실험 및 파인튜닝
+- `macgyvbot-simulation`: Isaac Sim, Gazebo, RViz 기반 시뮬레이션
 
 ## 🌿 브랜치 네이밍 규칙
 

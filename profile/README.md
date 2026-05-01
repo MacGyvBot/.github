@@ -1,6 +1,6 @@
-# 🧰 SSUBOT
+# 🧰 MacGyvBot
 
-SSUBOT은 **음성 명령 기반 공구 서랍 관리 로봇팔 어시스턴트**를 개발하는 Organization입니다.
+MacGyvBot은 **음성 명령 기반 공구 서랍 관리 로봇팔 어시스턴트**를 개발하는 Organization입니다.
 
 사용자가 음성으로 특정 공구를 요청하면, 시스템은 공구를 인식하고 위치를 추정한 뒤 로봇팔과 그리퍼로 공구를 집어 사용자 앞 전달 위치 또는 사용자 손 방향으로 안전하게 전달합니다. 이후 사용자가 반납한 공구를 다시 원래 위치로 정리하는 기능도 목표로 합니다.
 
@@ -17,12 +17,12 @@ SSUBOT은 **음성 명령 기반 공구 서랍 관리 로봇팔 어시스턴트*
 
 | 레포지토리 | 역할 |
 | --- | --- |
-| [`tool-assistant`](https://github.com/SSUBOT/tool-assistant) | ROS 2 메인 시스템, 작업 상태 관리, 로봇팔/그리퍼/서랍 제어 |
-| [`tool-assistant-perception`](https://github.com/SSUBOT/tool-assistant-perception) | 공구 인식, 위치 추정, 모델 학습/추론 |
-| [`tool-assistant-datasets`](https://github.com/SSUBOT/tool-assistant-datasets) | 데이터 수집, 라벨링, 메타데이터 관리 |
-| [`tool-assistant-docs`](https://github.com/SSUBOT/tool-assistant-docs) | 기획서, 요구사항 명세서, 발표자료, 다이어그램 |
-| [`tool-assistant-vla`](https://github.com/SSUBOT/tool-assistant-vla) | OpenVLA 기반 조작 skill 실험 및 파인튜닝 |
-| [`tool-assistant-simulation`](https://github.com/SSUBOT/tool-assistant-simulation) | Isaac Sim, Gazebo, RViz 기반 시뮬레이션 |
+| [`macgyvbot-assistant`](https://github.com/MacGyvBot/macgyvbot-assistant) | ROS 2 메인 시스템, 작업 상태 관리, 로봇팔/그리퍼/서랍 제어 |
+| [`macgyvbot-perception`](https://github.com/MacGyvBot/macgyvbot-perception) | 공구 인식, 위치 추정, 모델 학습/추론 |
+| [`macgyvbot-datasets`](https://github.com/MacGyvBot/macgyvbot-datasets) | 데이터 수집, 라벨링, 메타데이터 관리 |
+| [`macgyvbot-docs`](https://github.com/MacGyvBot/macgyvbot-docs) | 기획서, 요구사항 명세서, 발표자료, 다이어그램 |
+| [`macgyvbot-vla`](https://github.com/MacGyvBot/macgyvbot-vla) | OpenVLA 기반 조작 skill 실험 및 파인튜닝 |
+| [`macgyvbot-simulation`](https://github.com/MacGyvBot/macgyvbot-simulation) | Isaac Sim, Gazebo, RViz 기반 시뮬레이션 |
 
 ## 🧩 핵심 구성 요소
 
@@ -50,8 +50,9 @@ SSUBOT은 **음성 명령 기반 공구 서랍 관리 로봇팔 어시스턴트*
 
 ## 🤝 기여
 
-공통 이슈 템플릿, PR 템플릿, 기여 가이드는 이 `.github` 레포지토리에서 관리합니다.
+조직 프로필과 공통 기여 가이드는 이 `.github` 레포지토리에서 관리합니다.
+새 레포지토리 생성용 이슈/PR 템플릿은 [`macgyvbot-template`](https://github.com/MacGyvBot/macgyvbot-template)에서 관리합니다.
 
 - 이슈를 만들 때는 버그, 기능 제안, 일반 작업, 실험, 안전 이슈 중 알맞은 템플릿을 선택해주세요.
 - PR은 가능한 한 하나의 목적만 포함하고, 테스트 결과와 리뷰 포인트를 명확히 작성해주세요.
-- 자세한 규칙은 [`CONTRIBUTING.md`](https://github.com/SSUBOT/.github/blob/main/CONTRIBUTING.md)를 참고해주세요.
+- 자세한 규칙은 [`CONTRIBUTING.md`](https://github.com/MacGyvBot/.github/blob/main/CONTRIBUTING.md)를 참고해주세요.
